@@ -84,7 +84,7 @@ nav a {
 }
 
 .card img {
-    width: 100%;
+    width: 100%; 
     border-radius: 8px;
     margin-bottom: 15px;
 }
@@ -142,6 +142,114 @@ footer {
     color: white;
     margin: 0 10px;
     text-decoration: none;
+}
+
+/* PREMIUM BOTÓN */
+.btn-premium {
+    background: linear-gradient(45deg, #007bff, #00c6ff);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* FILTRO */
+.filtro-demo {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.filtro-demo input,
+.filtro-demo select {
+    padding: 8px;
+    margin: 5px;
+}
+
+/* CARRITO */
+.carrito-demo {
+    padding: 50px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.carrito-box {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+/* RESEÑAS */
+.reseñas {
+    padding: 50px;
+    text-align: center;
+}
+
+.reseñas-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.reseña-card {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.estrellas {
+    color: gold;
+    margin: 10px 0;
+}
+
+/* BENEFICIOS PREMIUM */
+.beneficio-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 250px;
+}
+
+.subtitulo {
+    margin-top: 10px;
+    color: #666;
+}
+
+/* CONTADOR */
+.contador-demo {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.contador-demo div {
+    text-align: center;
+}
+
+.contador-demo strong {
+    font-size: 24px;
+    display: block;
+    color: #007bff;
+}
+
+/* RESPONSIVE EXTRA */
+@media (max-width: 768px) {
+    .reseñas-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contador-demo {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
 /* RESPONSIVE */
